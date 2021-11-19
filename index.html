@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reality properties</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container clearfix">
+        <!-- ----- -->
+        <div class="icon icon--bars float-left" id="menu-btn">
+          <span class="arrow bar"></span>
+        </div>
+        <!-- mobile-nav -->
+        <div class="mobile-nav">
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">for rent</a></li>
+            <li><a href="#">for sale</a></li>
+            <li><a href="#">our agents</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div>
+        <!-- ----- -->
+        <a href="./index.html"
+          ><img src="./Logo-white.png" alt=" logo" class="logo"
+        /></a>
+        <!-- --desktop-nav-- -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">homepage</a></li>
+            <li><a href="#" class="nav__link">about us</a></li>
+            <li><a href="#" class="nav__link">for rent</a></li>
+            <li><a href="#" class="nav__link">for sale</a></li>
+            <li><a href="#" class="nav__link">our agents</a></li>
+            <li><a href="#" class="nav__link">contact us</a></li>
+          </ul>
+        </nav>
+        <!-- ------- -->
+        <div class="favourites float-right">
+          <div class="icon icon--arrows">
+            <span class="arrow arrow--right"></span>
+            <span class="arrow arrow--left"></span>
+          </div>
+          <div class="icon icon--heart">
+            <span class="heart"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="container container--relative">
+          <div class="hero__content-wrapper">
+            <h1 class="title">Let us Guide You Home</h1>
+            <p>Find the house of your dreams.</p>
+            <div class="hero__find-property clearfix">
+              <div class="dropdown-wrapper float-left">
+                <select name="dropdown" id="dropdown">
+                  <option value="rent">For Rent</option>
+                  <option value="rent">For Rent</option>
+                  <option value="buy">For Rent</option>
+                </select>
+                <div class="icon icon--chevron">
+                  <span class="chevron-down"></span>
+                </div>
+              </div>
+              <div class="input-grp float-left">
+                <div class="icon icon--search">
+                  <span class="search-glass"></span>
+                </div>
+                <input
+                  class="input-text"
+                  type="text"
+                  placeholder="Search for properties or keywords.."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section-featured -->
+      <section class="section-featured">
+        <div class="container">
+          <h2>Featured Properties</h2>
+          <div class="clearfix">
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon" style="vertical-align: middle"
+                      ><img src="./Icon-bathtub.png" alt="bathtub" border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon" style="vertical-align: middle"
+                      ><img src="./Icon-bathtub.png" alt="bathtub" border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon" style="vertical-align: middle"
+                      ><img src="./Icon-bathtub.png" alt="bathtub" border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon" style="vertical-align: middle"
+                      ><img src="./Icon-bathtub.png" alt="bathtub" border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon" style="vertical-align: middle"
+                      ><img
+                        style="vertical-align: top"
+                        src="./Icon-bathtub.png"
+                        alt="bathtub"
+                        border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img
+                        style="vertical-align: top"
+                        src="https://i.ibb.co/ScRW8d6/bathtub.png"
+                        alt="bathtub-1"
+                        border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img
+                        style="vertical-align: top"
+                        src="https://i.ibb.co/ScRW8d6/bathtub.png"
+                        alt="bathtub-1"
+                        border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img
+                        style="vertical-align: top"
+                        src="https://i.ibb.co/ScRW8d6/bathtub.png"
+                        alt="bathtub-1"
+                        border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- ======card===== -->
+            <article class="featured__grid-col float-left">
+              <img src="./col-bg.jpg" alt="product-1" border="0" />
+              <div class="featured__content-wrapper">
+                <h3>Villa With Pool For Sale</h3>
+                <span class="price">$225,000</span>
+                <p class="address">263 S Rexford Dr, Beverly Hills, CA 90212</p>
+                <div class="amenities-wrapper">
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                    /></span>
+                    <span class="feature-txt">4 Beds</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img
+                        style="vertical-align: top"
+                        src="https://i.ibb.co/ScRW8d6/bathtub.png"
+                        alt="bathtub-1"
+                        border="0"
+                    /></span>
+                    <span class="feature-txt">2 Baths</span>
+                  </div>
+                  <!-- -------------- -->
+                  <div class="amenity">
+                    <span class="icon amenity--icon"
+                      ><img src="./Icon-area.png" alt="Icon" border="0"
+                    /></span>
+                    <span class="feature-txt">980 SqFt</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="btn-wrapper">
+            <button class="btn btn--blue" id="loadMore">All Properties</button>
+          </div>
+        </div>
+      </section>
+      <section class="section-property">
+        <div class="container clearfix">
+          <div class="col float-left bg-grey">
+            <h2 class="title">Aktas Properties Information</h2>
+            <p>1234 Hacker St, San Francisco</p>
+            <p><a href="tel:123456-7890">(123) 456-7890</a></p>
+            <p>Mon — Sun: 8:00am - 6:00pm</p>
+          </div>
+          <div class="col float-left">
+            <h2 class="title">Want to Sell Property?</h2>
+            <p>
+              Let us create a tailored strategic marketing plan and keep track
+              of the selling process.
+            </p>
+            <a href="" class="btn btn--green">Contact Us</a>
+          </div>
+        </div>
+      </section>
+      <section class="section-sale">
+        <div class="container">
+          <div class="sale__content-wrapper">
+            <div class="sale__content">
+              <span class="banner">for sale</span>
+              <h2>Villa With Pool For Sale</h2>
+              <span class="sale__price">$225,000</span>
+              <p class="sale__address">
+                263 S Rexford Dr, Beverly Hills, CA 90212
+              </p>
+              <div class="amenities-wrapper">
+                <!-- -------------- -->
+                <div class="amenity">
+                  <span class="icon amenity--icon"
+                    ><img src="./Icon-bed.png" alt="bed-icon" border="0"
+                  /></span>
+                  <span class="feature-txt">4 Beds</span>
+                </div>
+                <!-- -------------- -->
+                <div class="amenity">
+                  <span class="icon" style="vertical-align: top"
+                    ><img src="./Icon-bathtub.png" alt="bathtub" border="0"
+                  /></span>
+                  <span class="feature-txt">2 Baths</span>
+                </div>
+                <!-- -------------- -->
+                <div class="amenity">
+                  <span class="icon amenity--icon"
+                    ><img src="./Icon-area.png" alt="Icon" border="0"
+                  /></span>
+                  <span class="feature-txt">980 SqFt</span>
+                </div>
+              </div>
+            </div>
+            <div class="sale__contact clearfix">
+              <img
+                src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                alt="person"
+                border="0"
+                class="person-img float-left"
+              />
+              <div class="contact__person float-left">
+                <h3>Opi Watihana</h3>
+                <p>Sales Manager</p>
+              </div>
+              <a href="#" class="btn btn--blue float-right">Contact</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-reviews">
+        <div class="container container--relative">
+          <h2>What Our Clients Say</h2>
+          <button class="carousel__btn carousel__btn--left">
+            <img
+              src="https://i.ibb.co/HXY4zfv/arrow-left.png"
+              alt="arrow-left"
+              border="0"
+              width="16"
+              height="16"
+            />
+          </button>
+          <div class="carousel__track-wrapper">
+            <div class="carousel__track">
+              <div class="carousel__slide current-slide active">
+                <img
+                  width="100"
+                  height="100"
+                  src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                  alt="person"
+                  border="0"
+                />
+                <h3>Bansilal Brata</h3>
+                <p>
+                  The popularity of breakfast foods is a good reason to keep
+                  dependable starters, such as eggs, bread and other staples, on
+                  hand. But why reserve them only for morning meals? Planning
+                  breakfast for dinner is a good way to serve up simple,
+                </p>
+              </div>
+              <div class="carousel__slide">
+                <img
+                  width="100"
+                  height="100"
+                  src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                  alt="person"
+                  border="0"
+                />
+                <h3>Bansilal Brata</h3>
+                <p>
+                  The popularity of breakfast foods is a good reason to keep
+                  dependable starters, such as eggs, bread and other staples, on
+                  hand. But why reserve them only for morning meals? Planning
+                  breakfast for dinner is a good way to serve up simple,
+                </p>
+              </div>
+              <div class="carousel__slide">
+                <img
+                  width="100"
+                  height="100"
+                  src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                  alt="person"
+                  border="0"
+                />
+                <h3>Bansilal Brata</h3>
+                <p>
+                  The popularity of breakfast foods is a good reason to keep
+                  dependable starters, such as eggs, bread and other staples, on
+                  hand. But why reserve them only for morning meals? Planning
+                  breakfast for dinner is a good way to serve up simple,
+                </p>
+              </div>
+              <div class="carousel__slide">
+                <img
+                  width="100"
+                  height="100"
+                  src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                  alt="person"
+                  border="0"
+                />
+                <h3>Bansilal Brata</h3>
+                <p>
+                  The popularity of breakfast foods is a good reason to keep
+                  dependable starters, such as eggs, bread and other staples, on
+                  hand. But why reserve them only for morning meals? Planning
+                  breakfast for dinner is a good way to serve up simple,
+                </p>
+              </div>
+              <div class="carousel__slide">
+                <img
+                  width="100"
+                  height="100"
+                  src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                  alt="person"
+                  border="0"
+                />
+                <h3>Bansilal Brata</h3>
+                <p>
+                  The popularity of breakfast foods is a good reason to keep
+                  dependable starters, such as eggs, bread and other staples, on
+                  hand. But why reserve them only for morning meals? Planning
+                  breakfast for dinner is a good way to serve up simple,
+                </p>
+              </div>
+              <div class="carousel__slide">
+                <img
+                  width="100"
+                  height="100"
+                  src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                  alt="person"
+                  border="0"
+                />
+                <h3>Bansilal Brata</h3>
+                <p>
+                  The popularity of breakfast foods is a good reason to keep
+                  dependable starters, such as eggs, bread and other staples, on
+                  hand. But why reserve them only for morning meals? Planning
+                  breakfast for dinner is a good way to serve up simple,
+                </p>
+              </div>
+              <div class="carousel__slide">
+                <img
+                  width="100"
+                  height="100"
+                  src="https://i.ibb.co/J3rpFjQ/person-2.jpg"
+                  alt="person"
+                  border="0"
+                />
+                <h3>Bansilal Brata</h3>
+                <p>
+                  The popularity of breakfast foods is a good reason to keep
+                  dependable starters, such as eggs, bread and other staples, on
+                  hand. But why reserve them only for morning meals? Planning
+                  breakfast for dinner is a good way to serve up simple,
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel__btn carousel__btn--right">
+            <img
+              src="https://i.ibb.co/x8ZZKnR/arrow-right.png"
+              alt="arrow-right"
+              border="0"
+              width="16"
+              height="16"
+            />
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-grey">
+      <div class="container">
+        <a href="./index.html"
+          ><img
+            src="https://i.ibb.co/xFV4m3H/Logo-Copy.png"
+            alt=" logo"
+            class="logo"
+        /></a>
+        <p>
+          Have you ever heard the expression, “Do not count your chickens before
+          they hatch?” Maybe an older, wiser individual would tell you this to
+          keep you from getting ahead of yourself.
+        </p>
+      </div>
+    </footer>
+    <!-- --js-- -->
+    <script src="./script.js"></script>
+  </body>
+</html>
